@@ -4046,3 +4046,10 @@ input:focus:-ms-input-placeholder {
 	    overflow-y: scroll;
 	}
 }
+
+.thinner {
+    max-width: 650px;
+    margin: 0 auto;
+    margin-top: 1.5em;
+    font-size: 1.3em;
+}
