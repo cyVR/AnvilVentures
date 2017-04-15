@@ -241,7 +241,7 @@ h1.post-title {
     display: none
 }
 .sub-footer {
-    background: #292929;
+    background: #333C45;
     padding: 35px 0;
 }
 .sub-footer p {
@@ -3129,10 +3129,10 @@ input:focus:-ms-input-placeholder {
     background-attachment: scroll !important
 }
 .parallax.contact {
-    background-image: url(style/images/art/parallax1.jpg)
+    background-image: url(style/images/art/parallax4.jpg)
 }
 .parallax.testimonials {
-    background-image: url(style/images/art/parallax2.jpg)
+    background-image: url(style/images/art/parallax3.jpg)
 }
 .contact-info {
     margin: 0;
