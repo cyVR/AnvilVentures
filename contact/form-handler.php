@@ -61,10 +61,10 @@ function sendEmail($subject, $content, $emailto, $emailfrom) {
 
 	if($use_smtp == '1'){
 
-		$SmtpServer = 'SMTP SERVER';
-		$SmtpPort = 'SMTP PORT';
-		$SmtpUser = 'SMTP USER';
-		$SmtpPass = 'SMTP PASSWORD';
+		$SmtpServer = 'smtp.gmail.com';
+		$SmtpPort = '587';
+		$SmtpUser = 'davidhallinan@gmail.com';
+		$SmtpPass = 'Bumbaloe510';
 
 		$to = $emailto;
 		$SMTPMail = new SMTPClient ($SmtpServer, $SmtpPort, $SmtpUser, $SmtpPass, $from, $to, $subject, $body);
