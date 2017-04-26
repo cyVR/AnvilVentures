@@ -245,9 +245,9 @@ $(document).ready(function () {
         });
     });
 
-    $(window).on('resize', function () {
-        $('.grid-blog').isotope('reLayout')
-    });
+    // $(window).on('resize', function () {
+    //     $('.grid-blog').isotope('reLayout')
+    // });
 });
 /*-----------------------------------------------------------------------------------*/
 /*	ISOTOPE LATEST BLOG
