@@ -61,7 +61,7 @@ function sendEmail($subject, $content, $emailto, $emailfrom) {
 
 	if($use_smtp == '1'){
 
-		$SmtpServer = 'smtp.gmail.com';
+		$SmtpServer = 'ssl://smtp.gmail.com';
 		$SmtpPort = '465';
 		$SmtpUser = 'davidhallinan@gmail.com';
 		$SmtpPass = 'Bumbaloe510';
