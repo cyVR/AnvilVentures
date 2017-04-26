@@ -3,6 +3,12 @@
 /*-----------------------------------------------------------------------------------*/
 $(document).ready(function () {
 
+    $("#emailForm").submit(function(e) {
+        // alert("Thank you for your submission!");
+        $(".popup").show();
+        $(".popdown").hide();
+    });
+
      $(".owlcarousel").owlCarousel({
         navigation: true,
         navigationText : ['<i class="icon-left-open"></i>','<i class="icon-right-open"></i>'],

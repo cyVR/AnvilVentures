@@ -65,14 +65,19 @@
   <div class="parallax contact">
     <div class="container inner">
       <div class="thin">
-        <div class="section-title text-center">
+        <div class="popdown section-title text-center">
           <h2>Get In Touch With Us</h2>
-          <span class="icon"><i class="icon-phone-1"></i></span> </div>
+          <span class="icon"><i class="icon-phone-1"></i></span>
+        </div>
+        <div class=" popup section-title text-center">
+          <h2> Thanks for submitting. We appreciate hearing from you!</h2>
+          <span class="icon"><i class="icon-phone-1"></i></span>
+        </div>
         <div class="row">
           <div class="col-sm-8">
             <div class="form-container">
               <div class="response alert alert-success"></div>
-              <form class="forms" action="https://www.enformed.io/957a02ra" method="post">
+              <form class="forms" id="emailForm" action="https://www.enformed.io/957a02ra" method="post">
                 <fieldset>
                   <ol>
                     <li class="form-row text-input-row name-field">
@@ -91,7 +96,7 @@
                       <input type="hidden" name="hidden" value="" />
                     </li>
                     <li class="button-row">
-                      <input type="submit" value="Send" name="submit" class="btn btn-submit bm0" />
+                      <input type="submit" value="Send" name="submit" id="emailForm" class="btn btn-submit bm0" />
                     </li>
                   </ol>
                   <input type="hidden" name="v_error" id="v-error" value="Required" />
