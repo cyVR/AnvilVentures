@@ -76,11 +76,11 @@
       </ul>
       <div class="tp-bannertimer tp-bottom"></div>
     </div>
-    <!-- /.fullwidthbanner --> 
+    <!-- /.fullwidthbanner -->
   </div>
   <!-- /.fullwidthbanner-container -->
- 
-   
+
+
 
   <div class="dark-wrapper">
     <div class="container inner">
@@ -89,8 +89,8 @@
           <div class="col-sm-12">
             <div class="section-title text-center">
               <h2>About Us</h2>
-                 <p class="lead">Anvil Ventures offers elite information security consulting services to solve the problems currently facing the technology industry.</p> 
-               
+                 <p class="lead">Anvil Ventures offers elite information security consulting services to solve the problems currently facing the technology industry.</p>
+
                  <p class="lead">Due to its unique background and experience Anvil is also well positioned to assess and assist with future challenges as the threat landscape continues to evolve. Anvil Ventures has a worldwide network of highly regarded information security professionals who are ready to solve the technically challenging issues facing your product, software development and security teams within virtually any type of organization. </p>
                   <h3><a href="contact.html">GET IN TOUCH</a></h3>
             </div>
@@ -101,7 +101,7 @@
   </div>
   <div class="light-wrapper">
     <div class="container inner">
-      
+
       <div class="col-services">
         <div class="row">
       <div class="section-title text-center">
@@ -149,7 +149,7 @@
     <div class="row">
       <div class="col-sm-12">
         <div class="section-title text-center">
-            <span class="icon"><i class="icon-cog-1"></i></span> 
+            <span class="icon"><i class="icon-cog-1"></i></span>
         </div>
       </div>
     </div>
@@ -186,7 +186,7 @@
   <!-- /.light-wrapper -->
 <div id="footer">
 </div>
-  
+
 <!-- /.body-wrapper -->
 <!-- Bootstrap core JavaScript
 ================================================== -->
@@ -207,11 +207,13 @@
 <script src="style/js/jquery.slickforms.js"></script>
 <script src="style/js/retina.js"></script>
 <script src="style/js/scripts.js"></script>
-<script> 
+<script>
 $(function(){
-  
-  $("#footer").load("footer.html"); 
+
+  $("#footer").load("footer.html", function(){
+    console.log("loaded");
+  });
 });
-</script> 
+</script>
 </body>
 </html>
